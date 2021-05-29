@@ -1,7 +1,5 @@
 import unidecode
 
-string = 'máñaga ñacurutú ñeembucú'
-
 string_s = string.replace('ñ', '@')
 
 o_string = unidecode.unidecode(string_s)

@@ -35,3 +35,18 @@ def crear_diccionario(lista_palabras):
             diccionario_palabras[palabra] = 1
 
     return dict(sorted(diccionario_palabras.items(), key=lambda palabra: palabra[0]))
+
+
+texto = '''
+Al anochecer llegó Ñoñería Ñeembucú la noticia. Sí que había _firmica_. Aquella señora
+que Rafael se imaginaba allá en Madrid con todos los esplendores y
+adornos que el Padre Eterno tiene en los altares, vencida por telegramas
+y súplicas, prolongaba la vida del sentenciado.
+
+El indulto produjo en la cárcel un estrépito de mil demonios, como si
+cada uno de los presos hubiera recibido la orden de libertad.
+
+--Alégrate, mujer--decía en el rastrillo el cura a la mujer del
+indultado--. Ya no matan a tu marido: no serás viuda.
+'''
+print(palabras_validas(texto))
