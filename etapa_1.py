@@ -1,6 +1,6 @@
 def Calcular_palabra(palabra):
     xd = "?"*len(palabra)
-    return xd
+    return xd  #El gonsaah
 
 def Construir_palabra(palabra_referencia, palabra, letra):
      palabra_nueva = ''

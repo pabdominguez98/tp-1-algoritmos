@@ -1,9 +1,9 @@
-
+import re
 
 def palabras_validas(texto):
     lista_palabra_valida = []
 
-    for palabra in texto.split():
+    for palabra in re.split(' |-|_|\n', texto):
         palabra_sin = ''
         for letra in palabra:
             if (letra.isalpha()):

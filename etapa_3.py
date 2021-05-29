@@ -11,8 +11,7 @@ def seleccion_palabra(diccionario, longitud):
      
     return lista_palabras_longitud[random_num]
     
-
-
+ 
 def main():
     diccionario = {
         'carlos': 1,
